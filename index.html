@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cacao y Luna — Pastelería Artesanal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="logo-container">
+      <h1>Cacao y Luna</h1>
+      <p class="subtitle">Pastelería Artesanal</p>
+    </div>
+    <div class="cart-icon-container">
+      <button id="cart-btn" class="cart-btn">
+        🛒 Carrito (<span id="cart-count">0</span>)
+      </button>
+    </div>
+  </header>
+
+  <!-- Sección Sobre Nosotros -->
+  <section class="about-section">
+    <div class="about-container">
+      <h2>Sobre Nosotros</h2>
+      <p class="about-highlight">¡Hola! Soy Luana 👩‍🍳</p>
+      <p class="about-text">
+        Detrás de este pequeño emprendimiento estoy yo creando cada producto con dedicación y cuidando cada detalle para que puedas disfrutar de algo rico y especial. Vas a encontrar tortas, tartas, postres, boxes, opciones especiales para regalar y celebrar.
+      </p>
+      <p class="about-thanks">Gracias por elegir mi emprendimiento y acompañarme en este proyecto. ✨</p>
+    </div>
+  </section>
+
+  <!-- Contenedor Principal de Productos -->
+  <main class="main-content">
+    <h2>Nuestros Productos</h2>
+    <div id="grid-productos" class="grid-productos">
+      <!-- Los productos se renderizan dinámicamente con JS -->
+    </div>
+  </main>
+
+  <!-- Ventana Modal del Carrito -->
+  <div id="cart-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Tu Carrito de Compras 🍰</h3>
+        <button id="close-modal" class="close-btn">&times;</button>
+      </div>
+
+      <div id="cart-items" class="cart-items-list">
+        <!-- Ítems del carrito agregados con JS -->
+      </div>
+
+      <!-- Formulario de Datos del Cliente -->
+      <div id="checkout-form" class="checkout-form">
+        <h4>Datos para la entrega</h4>
+        <input type="text" id="cliente-nombre" placeholder="Tu Nombre completo" required />
+        
+        <select id="metodo-entrega">
+          <option value="retiro">Retiro en local</option>
+          <option value="envio">Envío a domicilio</option>
+        </select>
+
+        <input type="text" id="cliente-direccion" placeholder="Dirección de entrega" class="hidden" />
+
+        <select id="metodo-pago">
+          <option value="Transferencia">Pago por Transferencia</option>
+          <option value="Efectivo">Pago en Efectivo</option>
+        </select>
+      </div>
+
+      <div class="modal-footer">
+        <div class="total-container">
+          <span>Total:</span>
+          <span id="cart-total">$0</span>
+        </div>
+        <button id="btn-checkout" class="btn-checkout">
+          Enviar Pedido por WhatsApp 📲
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

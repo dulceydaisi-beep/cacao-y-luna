@@ -6,7 +6,7 @@ const productos = [
     porciones: "12 porciones aprox.",
     descripcion: "Base de brownie intenso y húmedo, acompañado de dulce de leche y crema, coronado con frutos rojos.",
     precio: 32000,
-    imagen: "img/brownie-frutos.jpg"
+    imagen: "brownie-frutos.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const productos = [
     porciones: "12 porciones aprox.",
     descripcion: "Suave y cremoso cheesecake sobre base crocante de galletas, acompañado de compota artesanal de frutos rojos.",
     precio: 40000,
-    imagen: "img/brownie.jpg"
+    imagen: "brownie.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ const productos = [
     porciones: "12 porciones",
     descripcion: "Suave y cremosa ricota en una delicada masa casera con acabado de azúcar impalpable.",
     precio: 32000,
-    imagen: "img/tarta-ricota.jpg"
+    imagen: "tarta-ricota.jpg"
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ const productos = [
     porciones: "24 cm",
     descripcion: "Finas y crocantes capas de masa casera intercaladas con abundante dulce de leche repostero y merengue italiano.",
     precio: 35000,
-    imagen: "img/rogel.jpg"
+    imagen: "rogel.jpg"
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const productos = [
     porciones: "24 cm",
     descripcion: "Base de masa sablée tierna, rellena con crema de limón y coronada con esponjoso merengue italiano.",
     precio: 35000,
-    imagen: "img/lemon-pie.jpg"
+    imagen: "lemon-pie.jpg"
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const productos = [
     porciones: "26 cm",
     descripcion: "Base húmeda de nuez con dulce de leche repostero y frutos rojos que aportan el equilibrio perfecto.",
     precio: 37000,
-    imagen: "img/humedo-nuez.jpg"
+    imagen: "humedo-nuez.jpg"
   },
 
   // --- BOX DULCES & SHOTS ---
@@ -56,7 +56,7 @@ const productos = [
     porciones: "16 unidades a elección",
     descripcion: "Incluye 4 chocotortas, 4 mini lemon pie, 4 mini pavlovas con frutilla y 4 brownies húmedos de nuez.",
     precio: 37000,
-    imagen: "img/petit-fours-box.jpg"
+    imagen: "petit-fours-box.jpg"
   },
 
   // --- BUDINES ---
@@ -66,7 +66,7 @@ const productos = [
     porciones: "Tamaño individual/familiar",
     descripcion: "Budín casero de vainilla, húmedo y esponjoso con dorado perfecto. Ideal para el mate o café.",
     precio: 4000,
-    imagen: "img/budin-vainilla.jpg"
+    imagen: "budin-vainilla.jpg"
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const productos = [
     porciones: "Tamaño individual/familiar",
     descripcion: "Clásico budín bien húmedo cargado de chips de chocolate que se derriten en cada bocado.",
     precio: 5000,
-    imagen: "img/budin-chips.jpg"
+    imagen: "budin-chips.jpg"
   },
   {
     id: 10,
@@ -82,6 +82,6 @@ const productos = [
     porciones: "Tamaño XL",
     descripcion: "100% integral, marmolado de vainilla y chocolate. Esponjoso y liviano, elaborado con harina integral.",
     precio: 10000,
-    imagen: "img/budin-integral.jpg"
+    imagen: "budin-integral.jpg"
   }
 ];

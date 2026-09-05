@@ -14,7 +14,7 @@ const productos = [
     porciones: "12 porciones aprox.",
     descripcion: "Suave y cremoso cheesecake sobre base crocante de galletas, acompañado de compota artesanal de frutos rojos.",
     precio: 40000,
-    imagen: "brownie.jpg"
+    imagen: "cheesecake-de-frutos-rojos.jpg"
   },
   {
     id: 3,
